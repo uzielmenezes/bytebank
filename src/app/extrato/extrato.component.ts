@@ -8,7 +8,7 @@ import { __importDefault } from 'tslib';
 })
 export class ExtratoComponent implements OnInit {
 
-  @Input() transferencia: any;
+  @Input() transferencias: any[];
 
   constructor() { }
 
